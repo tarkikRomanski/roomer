@@ -1,0 +1,27 @@
+.canva {
+    width: 1000px;
+    height: 450px;
+    border: 1px solid slategray;
+    position: relative;
+    margin: 15px;
+}
+
+.block {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    display: inline;
+}
+
+#addBlock {
+    width: auto;
+    height: auto;
+    padding: 10px;
+    border: none;
+    background-color: #6783e5;
+    color: white;
+    cursor: pointer;
+}
