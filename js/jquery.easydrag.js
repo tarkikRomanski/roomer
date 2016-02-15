@@ -131,9 +131,6 @@
                 // set it as absolute positioned
                 $(this).css("position", "absolute");
 
-                // set z-index
-                $(this).css("z-index", "10000");
-
                 // update track variables
                 isMouseDown    = true;
                 currentElement = this;
