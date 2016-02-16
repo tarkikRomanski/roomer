@@ -33,7 +33,7 @@ function getHexRGBColor(color)
 $('#addBlock').click(function(){
   //begining
   
-    $('.canva').html($('.canva').html() + '<div class="block" ondrop="dropEl();">BD</div>');
+    $('.canva').html($('.canva').html() + '<div class="block" ondrop="dropEl();"></div>');
 
     $(".block").easydrag();
 
@@ -47,6 +47,7 @@ $('#addBlock').click(function(){
     });
     //ending
 });
+
 
   $('#edit_text').change(function(event) {
     /* Act on the event */
@@ -62,7 +63,6 @@ $('#addBlock').click(function(){
 
   $('#goDown').click(function(){
     var position = block.css('z-index');
-    if(position > 0)
       position--;
     block.css('z-index', position);
   });  
